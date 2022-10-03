@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Bar Title Page -->
+        <title>Basics HTML</title>
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="../HTML Logo.ico">
+
+        <!-- CSS External -->
+        <link rel="stylesheet" href="h23_styles.css">
+
+        <!-- Machine Code -->
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content="30">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Framework Bootsrap -->
+        <link   rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <!-- Title Content -->
+        <h1 class="subject">HTML Responsive</h1>
+        <hr class="color"><br>
+
+        <!-- Exercise 1 (width) -->
+        <img class="img1" src="Images/Developer Illustration.png">
+        <!--    
+            Image can be scaled up to be larger 
+            than its original size. 
+        -->
+    
+        <!-- Exercise 2 (max-width) -->
+        <img class="img2" src="Images/Developer Illustration.png">
+        <!--    
+                Image never scaled up to be larger 
+                than its original size. 
+        -->
+
+        <br><hr class="color"><br>
+
+        <!-- Exercise 3 (picture) -->
+        <picture>
+            <source srcset="Images/Icon_HTML.ico" media="(max-width: 800px)">
+            <source srcset="Images/Icon_CSS.ico" media="(max-width: 1500px)">
+            <img class="pic" src="Images/Icon_Web.ico">
+        </picture>
+
+        <br><hr class="color"><br>
+
+        <!-- Exercise 4 (font size) -->
+        <h2 class="font head">Hello World</h2>
+        <p class="font text">
+            Resize the browser window to see how the text size scales. 
+        </p>
+
+        <br><hr class="color"><br><br>
+
+        <!-- Exercise 5 (@media screen) -->
+        <div class="left">Left Menu</div>
+        <div class="main">Main Content</div>
+        <div class="right">Right Content</div>
+        
+        <p class="remv">Remove</p>
+        <hr class="color"><br>
+
+        <!-- Exercise 6 (Responsive Web Pages)-->
+        <div class="title">
+            <h1>Hello World</h1>
+        </div>
+
+        <div class="all">
+            <div class="menu">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+                <a href="#">Link 4</a>
+            </div>
+        
+
+            <div class="content">
+                <h2>Lorem Ipsum</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Nostrum laboriosam possimus, itaque aperiam libero eos 
+                    porro, quod, alias corrupti inventore ipsum minima 
+                    molestias nam nihil esse amet quaerat harum suscipit.
+                </p>
+            </div>
+
+            <div class="about">
+                <h2>About</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing   elit. </p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>© copyright github/dzarurizkyy</p>
+        </div>
+
+        <br><hr class="color"><br><br>
+
+        <!-- Exercise 7 (Framework Bootstrap) -->
+        <div class="container">
+            <div class="jumbotron">
+                <h1>My First Bootsrap</h1>
+                <p>Resize this responsive page to see the result.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-3" class="margin">
+                    <h3>Column 1</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Facere laboriosam nobis itaque. Illo quos suscipit quaerat 
+                        cupiditate inventore porro corporis.
+                    </p>
+                </div>
+            
+                <div class="col-sm-3">
+                    <h3>Column 2</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Facere laboriosam nobis itaque. Illo quos suscipit quaerat 
+                        cupiditate inventore porro corporis.
+                    </p>
+                </div>
+
+                <div class="col-sm-3">
+                    <h3>Column 3</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Facere laboriosam nobis itaque. Illo quos suscipit quaerat 
+                        cupiditate inventore porro corporis.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </body>
+</html>
