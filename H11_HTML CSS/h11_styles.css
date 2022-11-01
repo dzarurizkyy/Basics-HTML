@@ -1,0 +1,6 @@
+h2, p {
+    font-size: 18px;
+    text-transform: lowercase;
+    padding: 6px;
+    padding-left: 8px;
+}
